@@ -7,7 +7,7 @@ mv bash $GLIBC_BIN/bash86
 chmod +x $GLIBC_BIN/bash86
 
 # download winetricks
-wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+wget https://raw.githubusercontent.com/nydal91/mobox_winetricks_fix/main/winetricks
 mv winetricks $GLIBC_BIN/winetricks
 chmod +x $GLIBC_BIN/winetricks
 
