@@ -11,8 +11,8 @@ chmod +x $GLIBC_BIN/bash86
 
 # download winetricks
 wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-mv winetricks $GLIBC_BIN/winetricks
-chmod +x $GLIBC_BIN/winetricks
+mv winetricks $PREFIX/glibc/wine/bin/
+chmod +x $PREFIX/glibc/wine/bin/winetricks
 
 wrtite in termux : 
 
